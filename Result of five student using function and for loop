@@ -1,0 +1,23 @@
+def contact():
+    print("contact details:-")
+    print("abcd public school")
+    print("contact no - 9992223331")
+    print("address - darbhanga, bihar")
+    print("Emil:- abcdschool.mailcom")
+
+for i in range(5):
+    a= input("name of the student ")
+    b= int(input("enter the mark of math :- "))
+    c= int(input("enter the mark of science :- "))
+    d= int(input("enter the mark of social sci :- "))
+    e= int(input("enter the mark of english :- "))
+    f= int(input("enter the mark of hindi :- "))
+    print()
+    print()
+    print()
+    print(a,"'s mark:- \nmath mark is ",b,"\nscience mark is ",c,"\nsocial science mark is ",d,"\nenglish mark is ",e,"\nhindi mark is ",f)
+    print()
+    contact()
+    print()
+    print()
+    print()
